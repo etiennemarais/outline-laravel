@@ -1,0 +1,20 @@
+{
+    "name": "etiennemarais/outline-laravel",
+    "description": "Service provider for outline test generator",
+    "type": "library",
+    "require": {
+        "etiennemarais/outline": "^0.0.1@alpha"
+    },
+    "authors": [
+        {
+            "name": "Etienne Marais",
+            "email": "hello@etiennemarais.co.za"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "OutlineLaravel\\": "src/OutlineLaravel/"
+        }
+    },
+    "minimum-stability": "dev"
+}
