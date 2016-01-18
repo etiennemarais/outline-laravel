@@ -2,6 +2,7 @@
     "name": "etiennemarais/outline-laravel",
     "description": "Service provider for outline test generator",
     "type": "library",
+    "license": "GPL-3.0",
     "require": {
         "etiennemarais/outline": "^0.0.1@alpha"
     },
