@@ -4,7 +4,8 @@ namespace OutlineLaravel\Commands;
 use DrafterPhp\Drafter;
 use Illuminate\Console\Command;
 use Outline\ApiBlueprint\ApiBlueprint;
-use Outline\TestGenerator\TestGenerator;
+use Outline\Test\Generator\Generator;
+use Outline\Transformer\Outline\Transformer;
 
 class Regenerate extends Command
 {
@@ -28,7 +29,7 @@ class Regenerate extends Command
 
         $apiBlueprint = new ApiBlueprint($drafter, $this->apiBlueprintFile);
 
-        (new TestGenerator)
+        (new Generator(new Transformer))
             ->with($apiBlueprint)
             ->outputTo(base_path() . '/tests/Features')
             ->generateTestsFor('lumen');
