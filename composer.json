@@ -4,7 +4,7 @@
     "type": "library",
     "license": "GPL-3.0",
     "require": {
-        "etiennemarais/outline": ">0.1"
+        "etiennemarais/outline": "^0.1.1"
     },
     "authors": [
         {
