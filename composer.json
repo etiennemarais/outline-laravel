@@ -4,7 +4,7 @@
     "type": "library",
     "license": "GPL-3.0",
     "require": {
-        "etiennemarais/outline": "^0.1.1"
+        "etiennemarais/outline": "~0.2"
     },
     "authors": [
         {
@@ -17,5 +17,5 @@
             "OutlineLaravel\\": "src/OutlineLaravel/"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
