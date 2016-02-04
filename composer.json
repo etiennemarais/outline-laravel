@@ -17,5 +17,5 @@
             "OutlineLaravel\\": "src/OutlineLaravel/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
